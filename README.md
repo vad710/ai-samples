@@ -2,8 +2,8 @@
 
 ![Android AI Sample Catalog screenshots](https://developer.android.com/static/ai/assets/images/ai_catalog_screenshot_1440.png)
 
-This folder contains the Android AI Sample catalog, a stand alone application giving you access to 
-individual self-contained samples illustrating some of the Generative AI capabilities unlocked by 
+This folder contains the Android AI Sample catalog, a stand alone application giving you access to
+individual self-contained samples illustrating some of the Generative AI capabilities unlocked by
 some of Google's models.
 
 > **Note:** These samples are intended to showcase specific AI capabilities in isolation, and they may use
@@ -11,8 +11,8 @@ some of Google's models.
 > For best practices follow our documentation and check
 > [Now In Android](https://github.com/android/nowinandroid)
 
-> **Requires Firebase setup** the samples relying on Google Cloud models (Gemini Pro, Gemini Flash, etc...) 
-> require setting up a Firebase project and connecting the app to Firebase (read more [here](https://firebase.google.com/docs/ai-logic/get-started?platform=android&api=dev#set-up-firebase)).   
+> **Requires Firebase setup** the samples relying on Google Cloud models (Gemini Pro, Gemini Flash, etc...)
+> require setting up a Firebase project and connecting the app to Firebase (read more [here](https://firebase.google.com/docs/ai-logic/get-started?platform=android&api=dev#set-up-firebase)).
 
 > 🚧 **Work-in-Progress:** we are working on bringing more samples into the application.
 
@@ -20,11 +20,11 @@ some of Google's models.
 
 1. Clone the repository
 2. Open the whole project in Android Studio.
-3. Set up a Firebase project and connect your app to Firebase by adding your Firebase configuration 
-file (`google-services.json`) to the `/app` directory. Read more in the [Firebase documentation](https://firebase.google.com/docs/ai-logic/get-started?platform=android&api=dev#set-up-firebase) and the [Android-specific setup guide](https://firebase.google.com/docs/android/learn-more?authuser=0#google-services-plugin-and-file).
+3. Set up a Firebase project and connect your app to Firebase by adding your Firebase configuration
+   file (`google-services.json`) to the `/app` directory. Read more in the [Firebase documentation](https://firebase.google.com/docs/ai-logic/get-started?platform=android&api=dev#set-up-firebase) and the [Android-specific setup guide](https://firebase.google.com/docs/android/learn-more?authuser=0#google-services-plugin-and-file).
 4. Sync & Run `app` configuration
 
-The app will open with the samples list screen that allows you to navigate throughout the different 
+The app will open with the samples list screen that allows you to navigate throughout the different
 available samples.
 
 ## Samples
@@ -52,7 +52,7 @@ Here is the list of samples you can find in the `/samples` folder:
 |                                                                                                                                   |  |
 | <img src="samples/gemini-video-metadata-creation/gemini_video_metadata.png" width="150" alt="Gemini Video Metadata sample">       | ✨🎥 **Gemini Video Metadata Creation**: <br>A sample using Gemini Flash to generate thumbnails, descriptions, hashtags, account tags, chapters and links from a video. This sample leverages the ability to provide a [Youtube video link](https://firebase.google.com/docs/ai-logic/input-file-requirements?api=dev#provide-file-using-url) to the model context for inference.<br><br><br><br> **[> Browse code](samples/gemini-video-metadata-creation)**<br><br> |
 |                                                                                                                                   |  |
-| <img src="samples/gemini-live-todo/gemini_live_todo.png" width="150" alt="Gemini Live Todo sample">                               | ✨🗣️ **Gemini Live Todo App**: <br>A Todo List app using the [Gemini Live API](https://developer.android.com/ai/gemini/live) to let the user interact with Gemini Live via voice to update the todo list.<br><br><br><br> **[> Browse code](samples/gemini-live-todo)**<br><br> |
+| <img src="samples/gemini-live-todo/ai_glasses_todo.png" width="150" alt="Gemini Live API Todo sample">                            | ✨🗣️ **Gemini Live Todo App AI Glasses Prototype**: <br>A Todo List app using the [Gemini Live API](https://developer.android.com/ai/gemini/live) to let the user interact with Gemini Live via voice to update the todo list on their AI Glasses! <br><br><br><br> **[> Browse code](samples/gemini-live-todo)**<br><br> |
 |                                                                                                                                   |  |
 | <img src="samples/imagen-editing/imagen_editing.png" width="150" alt="Imagen Editing sample">                                     | 🖼️🖌️ **Imagen Editing**: <br>A sample using Imagen to [generate images](https://developer.android.com/ai/imagen#generate-image) and [editing images](https://developer.android.com/ai/imagen#editing) using the mask based editing capabilities of the model.<br><br><br><br> **[> Browse code](samples/imagen-editing)**<br><br> |
 
