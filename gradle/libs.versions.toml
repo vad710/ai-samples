@@ -89,6 +89,7 @@ androidx-lifecycle-viewmodel-android = { group = "androidx.lifecycle", name = "l
 androidx-exifinterface = { group = "androidx.exifinterface", name = "exifinterface", version.ref = "exifinterface" }
 androidx-xr-glimmer = { group = "androidx.xr.glimmer", name = "glimmer", version.ref = "glimmer" }
 androidx-xr-projected = { group = "androidx.xr.projected", name = "projected", version.ref = "projected" }
+mlkit-segmentation = { group = "com.google.mlkit", name = "segmentation-selfie", version.ref = "mlkitSegmentation" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }

@@ -31,16 +31,17 @@ import com.android.ai.samples.geminivideosummary.ui.VideoSummarizationScreen
 import com.android.ai.samples.genai_image_description.GenAIImageDescriptionScreen
 import com.android.ai.samples.genai_summarization.GenAISummarizationScreen
 import com.android.ai.samples.genai_writing_assistance.GenAIWritingAssistanceScreen
-import com.android.ai.samples.geminihybrid.GeminiHybridScreen
-import com.android.ai.samples.nanobanana.ui.NanobananaScreen
-import com.android.ai.samples.magicselfie.ui.MagicSelfieScreen
+//import com.android.ai.samples.geminihybrid.GeminiHybridScreen
+import com.android.ai.samples.imagen.ui.ImagenScreen
+import com.android.ai.samples.imagenediting.ui.ImagenEditingScreen
+//import com.android.ai.samples.magicselfie.ui.MagicSelfieScreen
 import com.android.ai.theme.extendedColorScheme
 import com.google.firebase.ai.type.PublicPreviewAPI
 
 @OptIn(PublicPreviewAPI::class)
 @RequiresPermission(Manifest.permission.RECORD_AUDIO)
 val sampleCatalog = listOf(
-    SampleCatalogItem(
+    /*SampleCatalogItem(
         title = R.string.gemini_hybrid_sample_list_title,
         description = R.string.gemini_hybrid_sample_list_description,
         route = "GeminiHybridScreen",
@@ -104,11 +105,20 @@ val sampleCatalog = listOf(
         keyArt = R.drawable.img_keyart_text,
     ),
     SampleCatalogItem(
-        title = R.string.nanobanana_sample_list_title,
-        description = R.string.nanobanana_sample_list_description,
-        route = "NanobananaImageGenerationScreen",
-        sampleEntryScreen = { NanobananaScreen() },
-        tags = listOf(SampleTags.GEMINI_FLASH, SampleTags.FIREBASE),
+        title = R.string.imagen_sample_list_title,
+        description = R.string.imagen_sample_list_description,
+        route = "ImagenImageGenerationScreen",
+        sampleEntryScreen = { ImagenScreen() },
+        tags = listOf(SampleTags.IMAGEN, SampleTags.FIREBASE),
+        needsFirebase = true,
+        keyArt = R.drawable.img_keyart_imagen,
+    ),
+    SampleCatalogItem(
+        title = R.string.imagen_editing_sample_list_title,
+        description = R.string.imagen_editing_sample_list_description,
+        route = "ImagenEditingScreen",
+        sampleEntryScreen = { ImagenEditingScreen() },
+        tags = listOf(SampleTags.IMAGEN, SampleTags.FIREBASE),
         needsFirebase = true,
         keyArt = R.drawable.img_keyart_imagen,
     ),
@@ -138,7 +148,7 @@ val sampleCatalog = listOf(
         tags = listOf(SampleTags.GEMINI_FLASH, SampleTags.FIREBASE, SampleTags.MEDIA3),
         needsFirebase = true,
         keyArt = R.drawable.img_keyart_video_summary,
-    ),
+    ),*/
     SampleCatalogItem(
         title = R.string.gemini_live_todo_list_title,
         description = R.string.gemini_live_todo_list_description,
